@@ -1,0 +1,34 @@
+# Site settings
+title: Lucid Illusions
+email: i@lucidillusions.in
+# description: A brief description of your website
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+
+# Build settings
+sass:
+  sass_dir: _sass
+include: ['_pages']
+markdown: kramdown
+#  input: GFM
+theme: jekyll-theme-minimal # Choose a theme that suits your design
+
+# Banner image
+banner_image: "/assets/images/header.png" # Path to your banner image
+
+
+# Work in Progress message
+work_in_progress: true
+work_in_progress_message: "This website is a work in progress. Stay tuned for updates!"
+
+
+
+# External links
+#external_links:
+#  - title: GitHub
+#    url: "https://github.com/yourusername"
+#  - title: Twitter
+#    url: "https://twitter.com/yourusername"
+#  - title: LinkedIn
+#    url: "https://www.linkedin.com/in/yourusername"
+  # Add more links as needed
